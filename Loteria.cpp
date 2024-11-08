@@ -15,8 +15,6 @@ void main()
 		for (int i = 0; i < 5; i++)
 		{
 			Loteria[i] = rand() % 50 + 1;
-			cout << Loteria[i] << "\n";
-
 		}
 		cout << "Bem-vindo a LotoBitcoins esta  acumulada em 1 MILHAO DE BITCOINS\n";
 		for (i = 0; i < 5; i++)
