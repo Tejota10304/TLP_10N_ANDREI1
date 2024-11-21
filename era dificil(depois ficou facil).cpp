@@ -3,9 +3,8 @@ using namespace std;
 
 void main()
 {
-	int total = 5, somalturas = 0;
+	int total = 5, somalturas = 0, idade[5], cotador = 0;
 	float altura[5], alturamedia;
-	int idade[5], cotador = 0;
 	for (int i = 0; i < 5; i++)
 	{
 		cout << "Qual idade?\n";
@@ -24,7 +23,7 @@ void main()
 		{
 			cotador++;
 		}
-		if (idade[i] > 13)
+		if (idade[i] < 13)
 		{
 			cotador--;
 		}
