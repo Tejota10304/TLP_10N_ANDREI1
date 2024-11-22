@@ -9,9 +9,6 @@ void main()
 	{
 		cout << "Me de " << i + 1 << " Numero\n";
 		cin >> batataI[i];
-	}
-	for (int i = 0; i < 10; i++)
-	{
 		cout << "Me de " << i + 1 << " Numero\n";
 		cin >> batata[i];
 	}
