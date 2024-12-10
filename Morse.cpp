@@ -7,7 +7,7 @@ void main()
 	int tamanho1, posicao = 0;
 	char traduzir;
 	string frase[100], morseT[100];
-	char abc[26] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','t','u','v','w','x','y','z' };
+	string abc[26] = { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r","s", "t", "u", "v", "w", "x", "y", "z"};
 	string morse[26] = { ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.." };
 	cout << "Quer traduzir do Morse para Portugues 'M' Portugues para Morse 'P'";
 	cin >> traduzir;
@@ -25,7 +25,7 @@ void main()
 		{
 			for (int j = 0; j < 26; j++)
 			{
-				if (frase[i][0] == abc[j])
+				if (frase[i] == abc[j])
 				{
 					cout << morse[j];
 				}
