@@ -1,12 +1,9 @@
 #include <iostream>
 using namespace std;
-
 void main()
 {
-	char abc[5] = { 'a','e','i','o','u' };
-	char ppp[1] = { 'p' };
-	char frase[100];
-	int letras, somar = 0;
+	char abc[5] = { 'a','e','i','o','u' },frase[100];
+	int letras;
 	cout << "Quantas letras tem sua frase ";
 	cin >> letras;
 	cout << "Me de a frase ";
