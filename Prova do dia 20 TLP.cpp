@@ -4,9 +4,9 @@ using namespace std;
 void main()
 {
 	char abc[5] = { 'a','e','i','o','u' };
-	char ppp[1] = {'p'};
+	char ppp[1] = { 'p' };
 	char frase[100];
-	int letras,somar=0;
+	int letras, somar = 0;
 	cout << "Quantas letras tem sua frase ";
 	cin >> letras;
 	cout << "Me de a frase ";
@@ -21,7 +21,7 @@ void main()
 		{
 			if (frase[i] == abc[j])
 			{
-				cout<<frase[i]<<"p";
+				cout << "p"<<frase[i];
 			}
 		}
 	}
