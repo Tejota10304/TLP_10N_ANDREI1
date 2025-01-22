@@ -2,7 +2,7 @@
 using namespace std;
 int global[100][100];
 string produto[5] = { "Batata","Cenoura","Couves","alface","Brocolos" };
-string Meses[3] = { "Janeiro","Fevereiro","Março" };
+string Meses[3] = { "Janeiro","Fevereiro","MarÃ§o" };
 void funcoes()
 {
 	
@@ -46,14 +46,14 @@ void main()
 	int escolha = 0, bata = 0, resultado=0;
 	do
 	{
-		cout << " 0-Sair\n 1-calcular mensais\n 2-Calcula totais por produto\n 3-inserir valores\n ";
+		cout << "\n 0-Sair\n 1-calcular mensais\n 2-Calcula totais por produto\n 3-inserir valores\n ";
 		cout << "Oque voce quer fazer : ";
 		cin >> escolha;
 		switch (escolha)
 		{
 		case 1:
 		{
-			cout << "Em todo o ano voce comeu " << verify1() << " Produtos ";
+			cout << "Em todo o ano voce comeu " << verify1() << " Produtos\n";
 			break;
 		}
 		case 2:
@@ -65,8 +65,6 @@ void main()
 		{
 			funcoes();
 		}
-		default: 0;
-			break;
 		}
 	} while (escolha = 1 && 2);
 }
